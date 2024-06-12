@@ -29,11 +29,6 @@ export default function Town() {
 
       if (moveY < 0 || moveX < -480 || moveX > 1400) return
 
-      console.log({
-        moveX,
-        moveY
-      })
-
       setMovedX(moveX);
       setMovedY(moveY);
     }
